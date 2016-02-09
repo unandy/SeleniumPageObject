@@ -17,7 +17,7 @@ public class Login {
 		AmazonLoginPage al = new AmazonLoginPage(driver);
 		al.SignInLink().click();
 		al.EmailId().sendKeys("testmail02015@gmail.com");
-		al.Passwd().sendKeys("ganesha123");
+		al.Passwd().sendKeys("india1947");
 		al.Submit().click();	
 
 	}
