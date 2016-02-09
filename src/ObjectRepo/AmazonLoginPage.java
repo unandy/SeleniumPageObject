@@ -10,7 +10,6 @@ public class AmazonLoginPage {
 	public AmazonLoginPage(WebDriver driver){
 		this.driver = driver;	
 	}
-	
 		By signin = By.id("nav-link-yourAccount");
 		By email = By.id("ap_email");
 		By password = By.id("ap_password");
