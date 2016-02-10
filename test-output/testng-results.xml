@@ -2,24 +2,28 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35003" started-at="2016-02-09T21:16:41Z" finished-at="2016-02-09T21:17:16Z">
+  <suite name="Default suite" duration-ms="34264" started-at="2016-02-10T13:52:36Z" finished-at="2016-02-10T13:53:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35003" started-at="2016-02-09T21:16:41Z" finished-at="2016-02-09T21:17:16Z">
-      <class name="TestCases.Login">
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:TestCases.Login@5f8e8a9d]" name="beforeclass" is-config="true" duration-ms="5360" started-at="2016-02-09T16:16:41Z" finished-at="2016-02-09T16:16:47Z">
+    <test name="Default test" duration-ms="34264" started-at="2016-02-10T13:52:36Z" finished-at="2016-02-10T13:53:11Z">
+      <class name="TestCases.AmazonTest">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:TestCases.AmazonTest@4d14b6c2]" name="beforeclass" is-config="true" duration-ms="4102" started-at="2016-02-10T08:52:36Z" finished-at="2016-02-10T08:52:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:TestCases.Login@5f8e8a9d]" name="Login" duration-ms="27968" started-at="2016-02-09T16:16:47Z" finished-at="2016-02-09T16:17:15Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestCases.AmazonTest@4d14b6c2]" name="Login" duration-ms="9422" started-at="2016-02-10T08:52:40Z" finished-at="2016-02-10T08:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="SearchBox()[pri:0, instance:TestCases.Login@5f8e8a9d]" name="SearchBox" duration-ms="1372" started-at="2016-02-09T16:17:15Z" finished-at="2016-02-09T16:17:16Z">
+        <test-method status="PASS" signature="SearchBox()[pri:0, instance:TestCases.AmazonTest@4d14b6c2]" name="SearchBox" duration-ms="18087" started-at="2016-02-10T08:52:50Z" finished-at="2016-02-10T08:53:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchBox -->
-      </class> <!-- TestCases.Login -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:TestCases.AmazonTest@4d14b6c2]" name="afterclass" is-config="true" duration-ms="2621" started-at="2016-02-10T08:53:08Z" finished-at="2016-02-10T08:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- TestCases.AmazonTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
